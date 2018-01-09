@@ -9,7 +9,7 @@ val encoding = "ISO-8859-1"
 val extensions = args(1).split("/")
 val dir = new File(args(0))
 val separator = "======================================================================================="
-val outputFileName = "NP-links.txt"
+val outputFileName = "links.txt"
 
 def getStats(dir: File,
              extension: String,
